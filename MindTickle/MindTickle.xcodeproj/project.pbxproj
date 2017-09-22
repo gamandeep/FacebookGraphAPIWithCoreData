@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		334AA7EFD691BDA0772607FD /* libPods-MindTickle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21D35EE09E9BCB106FA1AC69 /* libPods-MindTickle.a */; };
+		CE02E2661F73B2EE00B3F04F /* PostTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE02E2651F73B2EE00B3F04F /* PostTableViewCell.m */; };
+		CE02E26C1F73F7E900B3F04F /* TextPost.m in Sources */ = {isa = PBXBuildFile; fileRef = CE02E26B1F73F7E900B3F04F /* TextPost.m */; };
+		CE02E26F1F73F7F400B3F04F /* PicturePost.m in Sources */ = {isa = PBXBuildFile; fileRef = CE02E26E1F73F7F400B3F04F /* PicturePost.m */; };
+		CE02E2721F73F7FF00B3F04F /* LinkPost.m in Sources */ = {isa = PBXBuildFile; fileRef = CE02E2711F73F7FF00B3F04F /* LinkPost.m */; };
+		CE2490E41F6FF72D003D0CF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2490E31F6FF72D003D0CF8 /* AppDelegate.m */; };
+		CE2490EA1F6FF72D003D0CF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2490E81F6FF72D003D0CF8 /* Main.storyboard */; };
+		CE2490ED1F6FF72D003D0CF8 /* MindTickle.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE2490EB1F6FF72D003D0CF8 /* MindTickle.xcdatamodeld */; };
+		CE2490EF1F6FF72D003D0CF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE2490EE1F6FF72D003D0CF8 /* Assets.xcassets */; };
+		CE2490F21F6FF72D003D0CF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2490F01F6FF72D003D0CF8 /* LaunchScreen.storyboard */; };
+		CE2490F51F6FF72D003D0CF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2490F41F6FF72D003D0CF8 /* main.m */; };
+		CE9D3A161F74EAF4004823A8 /* MTCommons.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9D3A151F74EAF4004823A8 /* MTCommons.m */; };
+		CEF0E7E71F712E2200993C07 /* BaseModelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF0E7E61F712E2200993C07 /* BaseModelObject.m */; };
+		CEF0E7EA1F71338800993C07 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF0E7E91F71338800993C07 /* Post.m */; };
+		CEF0E7ED1F71339200993C07 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF0E7EC1F71339200993C07 /* User.m */; };
+		CEF447481F70F59C00B359BB /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF447471F70F59C00B359BB /* HomeViewController.m */; };
+		CEF4474B1F70F5A800B359BB /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF4474A1F70F5A800B359BB /* AccountViewController.m */; };
+		CEF447501F711E4E00B359BB /* MTAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF4474F1F711E4E00B359BB /* MTAPIManager.m */; };
+		CEF447531F711E6200B359BB /* MTDataImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF447521F711E6200B359BB /* MTDataImporter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		21D35EE09E9BCB106FA1AC69 /* libPods-MindTickle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MindTickle.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE02E2641F73B2EE00B3F04F /* PostTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostTableViewCell.h; sourceTree = "<group>"; };
+		CE02E2651F73B2EE00B3F04F /* PostTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostTableViewCell.m; sourceTree = "<group>"; };
+		CE02E26A1F73F7E900B3F04F /* TextPost.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextPost.h; sourceTree = "<group>"; };
+		CE02E26B1F73F7E900B3F04F /* TextPost.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextPost.m; sourceTree = "<group>"; };
+		CE02E26D1F73F7F400B3F04F /* PicturePost.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PicturePost.h; sourceTree = "<group>"; };
+		CE02E26E1F73F7F400B3F04F /* PicturePost.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PicturePost.m; sourceTree = "<group>"; };
+		CE02E2701F73F7FF00B3F04F /* LinkPost.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkPost.h; sourceTree = "<group>"; };
+		CE02E2711F73F7FF00B3F04F /* LinkPost.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkPost.m; sourceTree = "<group>"; };
+		CE2490DF1F6FF72D003D0CF8 /* MindTickle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindTickle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2490E21F6FF72D003D0CF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE2490E31F6FF72D003D0CF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE2490E91F6FF72D003D0CF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE2490EC1F6FF72D003D0CF8 /* MindTickle.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MindTickle.xcdatamodel; sourceTree = "<group>"; };
+		CE2490EE1F6FF72D003D0CF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE2490F11F6FF72D003D0CF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE2490F31F6FF72D003D0CF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE2490F41F6FF72D003D0CF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE9D3A141F74EAF4004823A8 /* MTCommons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTCommons.h; sourceTree = "<group>"; };
+		CE9D3A151F74EAF4004823A8 /* MTCommons.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTCommons.m; sourceTree = "<group>"; };
+		CEF0E7E51F712E2200993C07 /* BaseModelObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseModelObject.h; sourceTree = "<group>"; };
+		CEF0E7E61F712E2200993C07 /* BaseModelObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseModelObject.m; sourceTree = "<group>"; };
+		CEF0E7E81F71338800993C07 /* Post.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		CEF0E7E91F71338800993C07 /* Post.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		CEF0E7EB1F71339200993C07 /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		CEF0E7EC1F71339200993C07 /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		CEF447461F70F59C00B359BB /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		CEF447471F70F59C00B359BB /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		CEF447491F70F5A800B359BB /* AccountViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountViewController.h; sourceTree = "<group>"; };
+		CEF4474A1F70F5A800B359BB /* AccountViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountViewController.m; sourceTree = "<group>"; };
+		CEF4474E1F711E4E00B359BB /* MTAPIManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTAPIManager.h; sourceTree = "<group>"; };
+		CEF4474F1F711E4E00B359BB /* MTAPIManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTAPIManager.m; sourceTree = "<group>"; };
+		CEF447511F711E6200B359BB /* MTDataImporter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTDataImporter.h; sourceTree = "<group>"; };
+		CEF447521F711E6200B359BB /* MTDataImporter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTDataImporter.m; sourceTree = "<group>"; };
+		ED9D4361B74636B1A69A9920 /* Pods-MindTickle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindTickle.release.xcconfig"; path = "Pods/Target Support Files/Pods-MindTickle/Pods-MindTickle.release.xcconfig"; sourceTree = "<group>"; };
+		FED2230D63EB6E28EFAD72DF /* Pods-MindTickle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindTickle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MindTickle/Pods-MindTickle.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE2490DC1F6FF72D003D0CF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				334AA7EFD691BDA0772607FD /* libPods-MindTickle.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E5DC34694587346AD19E64B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21D35EE09E9BCB106FA1AC69 /* libPods-MindTickle.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD121DAC68BD0A928E8A1F89 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FED2230D63EB6E28EFAD72DF /* Pods-MindTickle.debug.xcconfig */,
+				ED9D4361B74636B1A69A9920 /* Pods-MindTickle.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE2490D61F6FF72D003D0CF8 = {
+			isa = PBXGroup;
+			children = (
+				CE2490E11F6FF72D003D0CF8 /* MindTickle */,
+				CE2490E01F6FF72D003D0CF8 /* Products */,
+				CD121DAC68BD0A928E8A1F89 /* Pods */,
+				2E5DC34694587346AD19E64B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE2490E01F6FF72D003D0CF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE2490DF1F6FF72D003D0CF8 /* MindTickle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE2490E11F6FF72D003D0CF8 /* MindTickle */ = {
+			isa = PBXGroup;
+			children = (
+				CE9D3A131F74EAC6004823A8 /* Commons */,
+				CEF4474D1F711E2900B359BB /* Managers */,
+				CEF4474C1F711E1900B359BB /* Models */,
+				CEF447451F70F58500B359BB /* Views */,
+				CE2490E21F6FF72D003D0CF8 /* AppDelegate.h */,
+				CE2490E31F6FF72D003D0CF8 /* AppDelegate.m */,
+				CE2490E81F6FF72D003D0CF8 /* Main.storyboard */,
+				CE2490EE1F6FF72D003D0CF8 /* Assets.xcassets */,
+				CE2490F01F6FF72D003D0CF8 /* LaunchScreen.storyboard */,
+				CE2490F31F6FF72D003D0CF8 /* Info.plist */,
+				CE2490F41F6FF72D003D0CF8 /* main.m */,
+				CE2490EB1F6FF72D003D0CF8 /* MindTickle.xcdatamodeld */,
+			);
+			path = MindTickle;
+			sourceTree = "<group>";
+		};
+		CE9D3A131F74EAC6004823A8 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				CE9D3A141F74EAF4004823A8 /* MTCommons.h */,
+				CE9D3A151F74EAF4004823A8 /* MTCommons.m */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		CEF447451F70F58500B359BB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEF447461F70F59C00B359BB /* HomeViewController.h */,
+				CEF447471F70F59C00B359BB /* HomeViewController.m */,
+				CEF447491F70F5A800B359BB /* AccountViewController.h */,
+				CEF4474A1F70F5A800B359BB /* AccountViewController.m */,
+				CE02E2641F73B2EE00B3F04F /* PostTableViewCell.h */,
+				CE02E2651F73B2EE00B3F04F /* PostTableViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CEF4474C1F711E1900B359BB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CEF0E7E51F712E2200993C07 /* BaseModelObject.h */,
+				CEF0E7E61F712E2200993C07 /* BaseModelObject.m */,
+				CEF0E7E81F71338800993C07 /* Post.h */,
+				CEF0E7E91F71338800993C07 /* Post.m */,
+				CEF0E7EB1F71339200993C07 /* User.h */,
+				CEF0E7EC1F71339200993C07 /* User.m */,
+				CE02E26A1F73F7E900B3F04F /* TextPost.h */,
+				CE02E26B1F73F7E900B3F04F /* TextPost.m */,
+				CE02E26D1F73F7F400B3F04F /* PicturePost.h */,
+				CE02E26E1F73F7F400B3F04F /* PicturePost.m */,
+				CE02E2701F73F7FF00B3F04F /* LinkPost.h */,
+				CE02E2711F73F7FF00B3F04F /* LinkPost.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CEF4474D1F711E2900B359BB /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				CEF4474E1F711E4E00B359BB /* MTAPIManager.h */,
+				CEF4474F1F711E4E00B359BB /* MTAPIManager.m */,
+				CEF447511F711E6200B359BB /* MTDataImporter.h */,
+				CEF447521F711E6200B359BB /* MTDataImporter.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE2490DE1F6FF72D003D0CF8 /* MindTickle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE2490F81F6FF72D003D0CF8 /* Build configuration list for PBXNativeTarget "MindTickle" */;
+			buildPhases = (
+				9921716A0847D83CD4A8E7E6 /* [CP] Check Pods Manifest.lock */,
+				CE2490DB1F6FF72D003D0CF8 /* Sources */,
+				CE2490DC1F6FF72D003D0CF8 /* Frameworks */,
+				CE2490DD1F6FF72D003D0CF8 /* Resources */,
+				6E171D2AD65D1882F952083C /* [CP] Embed Pods Frameworks */,
+				19A5E1A4A90A65C27CD95D31 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MindTickle;
+			productName = MindTickle;
+			productReference = CE2490DF1F6FF72D003D0CF8 /* MindTickle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE2490D71F6FF72D003D0CF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Gamandeep Sethi";
+				TargetAttributes = {
+					CE2490DE1F6FF72D003D0CF8 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CE2490DA1F6FF72D003D0CF8 /* Build configuration list for PBXProject "MindTickle" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE2490D61F6FF72D003D0CF8;
+			productRefGroup = CE2490E01F6FF72D003D0CF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE2490DE1F6FF72D003D0CF8 /* MindTickle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE2490DD1F6FF72D003D0CF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2490F21F6FF72D003D0CF8 /* LaunchScreen.storyboard in Resources */,
+				CE2490EF1F6FF72D003D0CF8 /* Assets.xcassets in Resources */,
+				CE2490EA1F6FF72D003D0CF8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19A5E1A4A90A65C27CD95D31 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MindTickle/Pods-MindTickle-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E171D2AD65D1882F952083C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MindTickle/Pods-MindTickle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9921716A0847D83CD4A8E7E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE2490DB1F6FF72D003D0CF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2490E41F6FF72D003D0CF8 /* AppDelegate.m in Sources */,
+				CEF0E7E71F712E2200993C07 /* BaseModelObject.m in Sources */,
+				CE02E26F1F73F7F400B3F04F /* PicturePost.m in Sources */,
+				CEF447531F711E6200B359BB /* MTDataImporter.m in Sources */,
+				CE2490F51F6FF72D003D0CF8 /* main.m in Sources */,
+				CE2490ED1F6FF72D003D0CF8 /* MindTickle.xcdatamodeld in Sources */,
+				CEF447501F711E4E00B359BB /* MTAPIManager.m in Sources */,
+				CE9D3A161F74EAF4004823A8 /* MTCommons.m in Sources */,
+				CE02E2721F73F7FF00B3F04F /* LinkPost.m in Sources */,
+				CEF447481F70F59C00B359BB /* HomeViewController.m in Sources */,
+				CEF4474B1F70F5A800B359BB /* AccountViewController.m in Sources */,
+				CE02E26C1F73F7E900B3F04F /* TextPost.m in Sources */,
+				CEF0E7ED1F71339200993C07 /* User.m in Sources */,
+				CE02E2661F73B2EE00B3F04F /* PostTableViewCell.m in Sources */,
+				CEF0E7EA1F71338800993C07 /* Post.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE2490E81F6FF72D003D0CF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE2490E91F6FF72D003D0CF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE2490F01F6FF72D003D0CF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE2490F11F6FF72D003D0CF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE2490F61F6FF72D003D0CF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE2490F71F6FF72D003D0CF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE2490F91F6FF72D003D0CF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FED2230D63EB6E28EFAD72DF /* Pods-MindTickle.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9CGA6YVWTA;
+				INFOPLIST_FILE = MindTickle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zomato.MindTickle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE2490FA1F6FF72D003D0CF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED9D4361B74636B1A69A9920 /* Pods-MindTickle.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9CGA6YVWTA;
+				INFOPLIST_FILE = MindTickle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zomato.MindTickle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE2490DA1F6FF72D003D0CF8 /* Build configuration list for PBXProject "MindTickle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2490F61F6FF72D003D0CF8 /* Debug */,
+				CE2490F71F6FF72D003D0CF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE2490F81F6FF72D003D0CF8 /* Build configuration list for PBXNativeTarget "MindTickle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2490F91F6FF72D003D0CF8 /* Debug */,
+				CE2490FA1F6FF72D003D0CF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CE2490EB1F6FF72D003D0CF8 /* MindTickle.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE2490EC1F6FF72D003D0CF8 /* MindTickle.xcdatamodel */,
+			);
+			currentVersion = CE2490EC1F6FF72D003D0CF8 /* MindTickle.xcdatamodel */;
+			path = MindTickle.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CE2490D71F6FF72D003D0CF8 /* Project object */;
+}
