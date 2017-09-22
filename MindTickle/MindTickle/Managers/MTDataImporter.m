@@ -55,7 +55,28 @@
      }];
 }
 
+- (void)deleteExistingPosts {
+    NSFetchRequest *request1 = [NSFetchRequest fetchRequestWithEntityName:[TextPost entityName]];
+    
+    NSFetchRequest *request2 = [NSFetchRequest fetchRequestWithEntityName:[PicturePost entityName]];
+    
+    NSFetchRequest *request3 = [NSFetchRequest fetchRequestWithEntityName:[LinkPost entityName]];
+    
+    NSBatchDeleteRequest *batchDeleteRequest1 = [[NSBatchDeleteRequest alloc] initWithFetchRequest:request1];
+    
+    NSBatchDeleteRequest *batchDeleteRequest2 = [[NSBatchDeleteRequest alloc] initWithFetchRequest:request2];
+    
+    NSBatchDeleteRequest *batchDeleteRequest3 = [[NSBatchDeleteRequest alloc] initWithFetchRequest:request3];
+    
+    [self.context executeRequest:batchDeleteRequest1 error:nil];
+    [self.context executeRequest:batchDeleteRequest2 error:nil];
+    [self.context executeRequest:batchDeleteRequest3 error:nil];
+}
+
 - (void)importPosts:(NSArray *)posts {
+    
+    [self deleteExistingPosts];
+    
     for(NSDictionary *postDict in posts) {
         NSString *identifier = postDict[@"id"];
         NSString *type = postDict[@"type"];

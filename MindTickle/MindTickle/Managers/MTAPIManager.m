@@ -15,7 +15,7 @@
 #import "MTCommons.h"
 
 NSString *const MTAPIBaseURLString = @"https://graph.facebook.com/v2.10/";
-NSString *const MTAPIAccessToken = @"EAACEdEose0cBAEeZCFzHnbHMdmRDuRGlGBaEBBuTPuz2rbiZATksPsl6ZAaED0co2SlcvdRpZBGxJUZCeAhs7WdwidG53ytZBwZBjCMJQZA5WZALD3uBRhWSZAnPkmIm4ez4g1OSSfqz4Dx6TzFIPjlZBqS1Qav3V1xQqbPlTWX6HsQ3aTxDeDyvBktFuIZCpzWHX0mEJKQrWHXxLAZDZD";
+NSString *const MTAPIAccessToken = @"EAACEdEose0cBAPFRJsEZC8CHc3veFk7VuOTQMXg8Pfj7eub9y0XZCaeIWY24l3U3gcBM8nB0S2iV7XeZBOZC0r3HfXTEIhmfpVBXBQXG9ZApAGNbStZBsnyCAghHXcU5X6ztVxW0w6B8EW4TQ6gyx2cVplQSTHewIvRCMAIvmbToXfwOsy3ZBDX08OMPCc1whYDlbHx2ZAN2sgZDZD";
 
 //For steps to generate the above access-token, go to this link : https://docs.google.com/document/d/1xu9PYWXepJ7Hq61HQbm-QDAJn0P3ixyuFliCyVqz7z0/edit?usp=sharing
 
